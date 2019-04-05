@@ -3,3 +3,10 @@ h3 {
     text-shadow: 1px 1px 5px #000;
     margin-right: 15px;
 }
+body {
+    min-height: 100vh;
+    background-color: #6C747C;
+}
+nav {
+    margin-bottom: 15px;
+}

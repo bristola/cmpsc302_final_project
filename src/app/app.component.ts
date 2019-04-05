@@ -15,7 +15,8 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
                 query(':enter, :leave', [
                     style({
                         position: 'absolute',
-                        opacity: 0.0
+                        opacity: 0.0,
+                        width: '100%'
                     })
                 ]),
                 query(':enter', [
@@ -33,12 +34,13 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
                 query(':enter', animateChild()),
             ]),
             // About page to about page
-            transition('About <=> HomePage', [
+            transition('AboutPage <=> HomePage', [
                 style({ position: 'relative' }),
                 query(':enter, :leave', [
                     style({
                         position: 'absolute',
-                        opacity: 0.0
+                        opacity: 0.0,
+                        width: '100%'
                     })
                 ]),
                 query(':enter', [
@@ -61,7 +63,8 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
                 query(':enter, :leave', [
                     style({
                         position: 'absolute',
-                        opacity: 0.0
+                        opacity: 0.0,
+                        width: '100%'
                     })
                 ]),
                 query(':enter', [
