@@ -1,7 +1,5 @@
-.active {
-    color: #bbbf59;
-}
 h3 {
-    color: #bbbf59;
+    color: #e5e5e5;
+    text-shadow: 1px 1px 5px #000;
     margin-right: 15px;
 }
