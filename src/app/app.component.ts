@@ -16,19 +16,20 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
                     style({
                         position: 'absolute',
                         opacity: 0.0,
-                        width: '100%'
+                        width: '95%',
+                        color: 'white'
                     })
                 ]),
                 query(':enter', [
-                    style({ opacity: 0.0})
+                    style({ opacity: 0.0, width: '95%', color: 'white' })
                 ]),
                 query(':leave', animateChild()),
                 group([
                     query(':leave', [
-                        animate('1000ms ease-out', style({ opacity: 0.0 }))
+                        animate('1000ms ease-out', style({ opacity: 0.0, width: '95%', color:'white' }))
                     ]),
                     query(':enter', [
-                        animate('1000ms ease-out', style({ opacity: 1.0 }))
+                        animate('1000ms ease-out', style({ opacity: 1.0, width:'100%', color:'black' }))
                     ])
                 ]),
                 query(':enter', animateChild()),
@@ -40,19 +41,20 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
                     style({
                         position: 'absolute',
                         opacity: 0.0,
-                        width: '100%'
+                        width: '95%',
+                        color: 'white'
                     })
                 ]),
                 query(':enter', [
-                    style({ opacity: 0.0})
+                    style({ opacity: 0.0, width: '95%', color: 'white' })
                 ]),
                 query(':leave', animateChild()),
                 group([
                     query(':leave', [
-                        animate('1000ms ease-out', style({ opacity: 0.0 }))
+                        animate('1000ms ease-out', style({ opacity: 0.0, width: '95%', color:'white' }))
                     ]),
                     query(':enter', [
-                        animate('1000ms ease-out', style({ opacity: 1.0 }))
+                        animate('1000ms ease-out', style({ opacity: 1.0, width:'100%', color:'black' }))
                     ])
                 ]),
                 query(':enter', animateChild()),
@@ -64,19 +66,20 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
                     style({
                         position: 'absolute',
                         opacity: 0.0,
-                        width: '100%'
+                        width: '95%',
+                        color: 'white'
                     })
                 ]),
                 query(':enter', [
-                    style({ opacity: 0.0})
+                    style({ opacity: 0.0, width: '95%', color: 'white' })
                 ]),
                 query(':leave', animateChild()),
                 group([
                     query(':leave', [
-                        animate('1000ms ease-out', style({ opacity: 0.0 }))
+                        animate('1000ms ease-out', style({ opacity: 0.0, width: '95%', color:'white' }))
                     ]),
                     query(':enter', [
-                        animate('1000ms ease-out', style({ opacity: 1.0 }))
+                        animate('1000ms ease-out', style({ opacity: 1.0, width:'100%', color:'black' }))
                     ])
                 ]),
                 query(':enter', animateChild()),
