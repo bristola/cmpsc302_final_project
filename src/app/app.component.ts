@@ -8,11 +8,6 @@ import { Location } from '@angular/common'
 })
 export class AppComponent {
   title = 'Azariel Technologies';
-  location: Location;
-  url: String;
-  home: String;
-  constructor(location: Location) {
-    this.location = location;
-    this.url = location.path();
+  constructor() {
   }
 }

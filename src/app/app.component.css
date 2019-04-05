@@ -1,6 +1,7 @@
 .active {
-    color: red;
+    color: #bbbf59;
 }
-.inactive {
-    color: blue;
+h3 {
+    color: #bbbf59;
+    margin-right: 15px;
 }
