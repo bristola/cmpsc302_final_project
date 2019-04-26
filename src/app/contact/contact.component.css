@@ -1,0 +1,20 @@
+.outer_home {
+    width: 90%;
+    align-items: center;
+    float: none;
+    margin: 0 auto;
+    background-color: #1A1F24;
+}
+.input_group {
+    width: 80%;
+}
+@media only screen and (min-width: 1150px) {
+    .input_group {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .input_group {
+        width: 40%;
+    }
+}

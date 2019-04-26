@@ -1,3 +1,8 @@
+- npm install -g @angular/cli
+- npm install angular-http-server -g
+- ng build --prod
+- angular-http-server --path dist/my-first-project
+
 # MyFirstProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
