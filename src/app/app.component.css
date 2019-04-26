@@ -11,4 +11,9 @@ nav {
     margin-bottom: 15px;
     position: fixed;
     width: 100%;
+    z-index: 999;
+}
+.small_image {
+    width: 40px;
+    margin-right: 20px;
 }
