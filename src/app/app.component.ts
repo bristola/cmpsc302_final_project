@@ -161,6 +161,7 @@ import { trigger, transition, animate, style, query, animateChild, group } from 
 })
 export class AppComponent {
   title = 'Azariel Technologies';
+  collapsed = false;
   constructor() {
   }
   prepareRoute(outlet: RouterOutlet) {
